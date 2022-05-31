@@ -15,5 +15,5 @@ class Urlaub(ModelBase):
         return dict(id=self.id,
                 zeitraum=self.zeitraum,
                 titel=self.titel,
-                urlaubswuensche=self.urlaubswuensche,.
+                urlaubswuensche=self.urlaubswuensche,
                 )
